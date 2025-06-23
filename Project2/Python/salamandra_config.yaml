@@ -1,0 +1,699 @@
+sdf: polymander.sdf
+spawn:
+  loader: 0
+  pose:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  velocity:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+morphology:
+  links:
+  - name: base_link
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: false
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: head
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -20.0
+      - -0.1
+      - -20.0
+    - - 0
+      - 0
+      - 0
+  - name: XM430_W210_R_v1_v31X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_foot_v21fr12_h1011
+    collisions: true
+    friction:
+    - 0.7
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_foot_v22fr12_h1011
+    collisions: true
+    friction:
+    - 0.7
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_foot_v23fr12_h1011
+    collisions: true
+    friction:
+    - 0.7
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    collisions: true
+    friction:
+    - 0.3
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  - name: link_foot_v24fr12_h1011
+    collisions: true
+    friction:
+    - 0.7
+    - 0
+    - 0
+    extras:
+      restitution: 0.0
+      linearDamping: 0
+      angularDamping: 0
+    density: 500.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - 0
+      - 0
+      - 0
+  self_collisions: []
+  joints:
+  - name: Joint1
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint2
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint3
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint4
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint5
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint6
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint7
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint8
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint11
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint12
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint21
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint22
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint31
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint32
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint41
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  - name: Joint42
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 2
+    extras: {}
+  n_joints_body: 8
+  n_dof_legs: 2
+  n_legs: 4
+control:
+  sensors:
+    links:
+    - base_link
+    - head
+    - link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1
+    - link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1
+    - link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1
+    - link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1
+    - XM430_W210_R_v1_v31X-430_IDLE1
+    - link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v21fr12_h1011
+    - link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v22fr12_h1011
+    - link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v23fr12_h1011
+    - link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v24fr12_h1011
+    joints:
+    - Joint1
+    - Joint2
+    - Joint3
+    - Joint4
+    - Joint5
+    - Joint6
+    - Joint7
+    - Joint8
+    - Joint11
+    - Joint12
+    - Joint21
+    - Joint22
+    - Joint31
+    - Joint32
+    - Joint41
+    - Joint42
+    contacts:
+    - link_foot_v21fr12_h1011
+    - link_foot_v22fr12_h1011
+    - link_foot_v23fr12_h1011
+    - link_foot_v24fr12_h1011
+    xfrc:
+    - head
+    - link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1
+    - link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1
+    - link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1
+    - link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1
+    - XM430_W210_R_v1_v31X-430_IDLE1
+    - link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v21fr12_h1011
+    - link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v22fr12_h1011
+    - link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v23fr12_h1011
+    - link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1
+    - link_foot_v24fr12_h1011
+  motors:
+  - joint_name: Joint1
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint2
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint3
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint4
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint5
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint6
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint7
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint8
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint11
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint12
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint21
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint22
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint31
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint32
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint41
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+  - joint_name: Joint42
+    control_types:
+    - position
+    limits_torque:
+    - -1000
+    - 1000
+name: Animat
+physics:
+  drag: true
+  sph: false
+  buoyancy: true
+  viscosity: 1.0
+  water_height: 0.0
+  water_density: 1000.0
+  water_velocity:
+  - 0.0
+  - 0.0
+  - 0.0
+  water_maps: []
+mujoco:
+  damping: 0.2
+  act_pos_gain: 3
+  act_vel_gain: 0
+  solref:
+  - -2000.0
+  - -150.0

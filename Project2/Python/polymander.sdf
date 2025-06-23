@@ -1,0 +1,799 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="world">
+    <model name="V2SalamanderRobot">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <link name="base_link">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>7.42237988189514e-13 -1.9292496043488565e-06 -0.0003800327833397048 0.0 0.0 0.0</pose>
+          <mass>0.2889489844693423</mass>
+          <inertia>
+            <ixx>6.203340226218487e-05</ixx>
+            <ixy>-1.2378155399518376e-12</ixy>
+            <ixz>-3.9372639104666543e-17</ixz>
+            <iyy>0.0006301575302018931</iyy>
+            <iyz>2.1184586882804209e-10</iyz>
+            <izz>0.0006268797658595486</izz>
+          </inertia>
+        </inertial>
+        <collision name="base_link_collision">
+          <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/base_link.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="base_link_visual">
+          <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/base_link.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="head">
+        <pose>0.0 -0.045 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>6.030339272706755e-11 -0.011641239820081369 -0.018575282175538076 0.0 0.0 0.0</pose>
+          <mass>0.11771798534526684</mass>
+          <inertia>
+            <ixx>3.273506574607482e-05</ixx>
+            <ixy>-9.44125662229807e-14</ixy>
+            <ixz>-6.467897178162268e-13</ixz>
+            <iyy>1.9286060309157253e-05</iyy>
+            <iyz>-1.0525841574405383e-07</iyz>
+            <izz>2.851244504239591e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="head_collision">
+          <pose>0.0 0.0 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/Head.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="head_visual">
+          <pose>0.0 0.0 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/Head.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.4 0.3 0.2 1</ambient>
+            <diffuse>0.4 0.3 0.2 1</diffuse>
+            <specular>0.4 0.3 0.2 1</specular>
+            <emissive>0.4 0.3 0.2 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>0.0 0.0449 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>6.329810736086822e-06 0.014970743667780007 -0.019372958157997024 0.0 0.0 0.0</pose>
+          <mass>0.13127865763979402</mass>
+          <inertia>
+            <ixx>4.941827675605272e-05</ixx>
+            <ixy>-1.420641475980395e-08</ixy>
+            <ixz>1.2567682908937612e-08</ixz>
+            <iyy>2.315951195546107e-05</iyy>
+            <iyz>-2.8733396688711805e-07</iyz>
+            <izz>4.292286280268648e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>0.0 -0.0449 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>0.0 -0.0449 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.4 0.3 0.2 1</ambient>
+            <diffuse>0.4 0.3 0.2 1</diffuse>
+            <specular>0.4 0.3 0.2 1</specular>
+            <emissive>0.4 0.3 0.2 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>0.0 0.1134 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>6.329808715232242e-06 0.014970741494816808 -0.019372958190713257 0.0 0.0 0.0</pose>
+          <mass>0.131278657639794</mass>
+          <inertia>
+            <ixx>4.9418279730786617e-05</ixx>
+            <ixy>-1.4206412782641869e-08</ixy>
+            <ixz>1.256768261259443e-08</ixz>
+            <iyy>2.315951161711794e-05</iyy>
+            <iyz>-2.8733422554076287e-07</iyz>
+            <izz>4.292286592102821e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>-0.0 -0.1134 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>-0.0 -0.1134 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>0.0 0.1819 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>6.329808655829628e-06 0.014970741638069801 -0.019372958204767757 0.0 0.0 0.0</pose>
+          <mass>0.131278657639794</mass>
+          <inertia>
+            <ixx>4.941827937534177e-05</ixx>
+            <ixy>-1.4206412864262256e-08</ixy>
+            <ixz>1.256768651684258e-08</ixz>
+            <iyy>2.3159511453580432e-05</iyy>
+            <iyz>-2.8733425577601013e-07</iyz>
+            <izz>4.2922865840581415e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>-0.0 -0.1819 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>-0.0 -0.1819 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.4 0.3 0.2 1</ambient>
+            <diffuse>0.4 0.3 0.2 1</diffuse>
+            <specular>0.4 0.3 0.2 1</specular>
+            <emissive>0.4 0.3 0.2 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1">
+        <pose>0.0 0.2504 -0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>2.1961327884012073e-06 0.043468986079035155 0.0186071388396934 0.0 0.0 0.0</pose>
+          <mass>0.40432586676064347</mass>
+          <inertia>
+            <ixx>0.0002758727594262536</ixx>
+            <ixy>1.0123815457037044e-08</ixy>
+            <ixz>1.3418380449153109e-08</ixz>
+            <iyy>0.0006320316115391221</iyy>
+            <iyz>-2.961554680523555e-07</iyz>
+            <izz>0.0008213387360462268</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1_collision">
+          <pose>-0.0 -0.2504 0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1_visual">
+          <pose>-0.0 -0.2504 0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1">
+        <pose>0.0 0.3529 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>1.4051831691695117e-09 0.015016270061978254 -0.01938166855263028 0.0 0.0 0.0</pose>
+          <mass>0.13131071893348267</mass>
+          <inertia>
+            <ixx>4.944150289937662e-05</ixx>
+            <ixy>-2.8252140868085127e-12</ixy>
+            <ixz>-1.9830361017324945e-11</ixz>
+            <iyy>2.317851323004965e-05</iyy>
+            <iyz>-2.6769880678544233e-07</iyz>
+            <izz>4.2940168103863436e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1_collision">
+          <pose>-0.0 -0.3528 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1_visual">
+          <pose>-0.0 -0.3528 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.4 0.3 0.2 1</ambient>
+            <diffuse>0.4 0.3 0.2 1</diffuse>
+            <specular>0.4 0.3 0.2 1</specular>
+            <emissive>0.4 0.3 0.2 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1">
+        <pose>0.0 0.4214 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>1.405183168921037e-09 0.014946270061978462 -0.019381668552630283 0.0 0.0 0.0</pose>
+          <mass>0.13131071893348265</mass>
+          <inertia>
+            <ixx>4.9441502899338326e-05</ixx>
+            <ixy>-2.8252141114009688e-12</ixy>
+            <ixz>-1.9830361017229335e-11</ixz>
+            <iyy>2.317851323004964e-05</iyy>
+            <iyz>-2.676988067857116e-07</iyz>
+            <izz>4.294016810382499e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1_collision">
+          <pose>-0.0 -0.42137 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1_visual">
+          <pose>-0.0 -0.42137 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="XM430_W210_R_v1_v31X-430_IDLE1">
+        <pose>0.0 0.4899 0.019 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>1.0090401883316374e-10 0.011713010650924227 -0.019424324836757923 0.0 0.0 0.0</pose>
+          <mass>0.11775004663895541</mass>
+          <inertia>
+            <ixx>3.2748774838012185e-05</ixx>
+            <ixy>9.087157419056469e-14</ixy>
+            <ixz>-1.9747781991859698e-11</ixz>
+            <iyy>1.929262842209805e-05</iyy>
+            <iyz>-1.0485067163090217e-07</iyz>
+            <izz>2.852676102921425e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="XM430_W210_R_v1_v31X-430_IDLE1_collision">
+          <pose>-0.0 -0.4898 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="XM430_W210_R_v1_v31X-430_IDLE1_visual">
+          <pose>-0.0 -0.4898 -0.019 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/XM430_W210_R_v1_v31X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>0.04083258144150035 -0.00038862876124461294 -0.004127287601795738 0.0 0.0 0.0</pose>
+          <mass>0.12566887301933358</mass>
+          <inertia>
+            <ixx>3.531301373779605e-05</ixx>
+            <ixy>5.4780983151499165e-08</ixy>
+            <ixz>7.317876472158008e-07</ixz>
+            <iyy>3.485211799021769e-05</iyy>
+            <iyz>-1.416968074879363e-07</iyz>
+            <izz>2.389311581486568e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>-0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>-0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>0.0575 0.3079 0.0 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>0.04083258130497049 -0.00038292873510287206 -0.004127287484305108 0.0 0.0 0.0</pose>
+          <mass>0.12566887301933358</mass>
+          <inertia>
+            <ixx>3.531301409320499e-05</ixx>
+            <ixy>5.47808488687334e-08</ixy>
+            <ixz>7.317876343607348e-07</ixz>
+            <iyy>3.485211951821188e-05</iyy>
+            <iyz>-1.416971945491358e-07</iyz>
+            <izz>2.3893117254563697e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>-0.0575 -0.30793 -0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>-0.0575 -0.30793 -0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>-0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>-0.04084579916830575 -0.0003886288424511308 -0.004127288246744913 0.0 0.0 0.0</pose>
+          <mass>0.12566887301933355</mass>
+          <inertia>
+            <ixx>3.531301308798099e-05</ixx>
+            <ixy>-7.988248779976503e-08</ixy>
+            <ixz>-6.983554788836124e-07</ixz>
+            <iyy>3.4856697406034465e-05</iyy>
+            <iyz>-1.41696812833226e-07</iyz>
+            <izz>2.3897695872544993e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>0.0575 0.0 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1">
+        <pose>-0.0575 0.3079 0.0 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>-0.040845798977223007 -0.000382928816119954 -0.004127288123847577 0.0 0.0 0.0</pose>
+          <mass>0.1256688730193336</mass>
+          <inertia>
+            <ixx>3.531301344878891e-05</ixx>
+            <ixy>-7.988226130610476e-08</ixy>
+            <ixz>-6.983556199730055e-07</ixz>
+            <iyy>3.4856698921092415e-05</iyy>
+            <iyz>-1.416972070853832e-07</iyz>
+            <izz>2.389769729416161e-05</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1_collision">
+          <pose>0.0575 -0.30793 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1_visual">
+          <pose>0.0575 -0.30793 0.0 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>0.05 0.05 0.05 1</ambient>
+            <diffuse>0.05 0.05 0.05 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_foot_v21fr12_h1011">
+        <pose>0.0985 0.0 -0.01603 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>0.001000042025224985 -3.995913721516367e-08 -0.059033887903779524 0.0 0.0 0.0</pose>
+          <mass>0.0474422550728817</mass>
+          <inertia>
+            <ixx>3.181301419353018e-05</ixx>
+            <ixy>-2.2700767944325564e-12</ixy>
+            <ixz>-1.5726357006359807e-12</ixz>
+            <iyy>2.980723673584514e-05</iyy>
+            <iyz>-9.61983665720713e-13</iyz>
+            <izz>6.253466452350729e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_foot_v21fr12_h1011_collision">
+          <pose>0.0010000000000000009 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_foot_v21fr12_h1011_visual">
+          <pose>0.0010000000000000009 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_foot_v22fr12_h1011">
+        <pose>-0.0985 0.0 -0.01603 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>-0.0009999579747750169 -3.995913721516367e-08 -0.059033887903779524 0.0 0.0 0.0</pose>
+          <mass>0.0474422550728817</mass>
+          <inertia>
+            <ixx>3.181301419353018e-05</ixx>
+            <ixy>-2.2700767944325564e-12</ixy>
+            <ixz>-1.5726357006359807e-12</ixz>
+            <iyy>2.980723673584514e-05</iyy>
+            <iyz>-9.61983665720713e-13</iyz>
+            <izz>6.253466452350729e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_foot_v22fr12_h1011_collision">
+          <pose>-0.0010000000000000009 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_foot_v22fr12_h1011_visual">
+          <pose>-0.0010000000000000009 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_foot_v23fr12_h1011">
+        <pose>0.0985 0.3079 -0.01603 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>0.00028224202522499417 -3.995913721516367e-08 -0.059033887903779524 0.0 0.0 0.0</pose>
+          <mass>0.0474422550728817</mass>
+          <inertia>
+            <ixx>3.181301419353018e-05</ixx>
+            <ixy>-2.2700767944325564e-12</ixy>
+            <ixz>-1.5726357006359807e-12</ixz>
+            <iyy>2.980723673584514e-05</iyy>
+            <iyz>-9.61983665720713e-13</iyz>
+            <izz>6.253466452350729e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_foot_v23fr12_h1011_collision">
+          <pose>0.0002822000000000102 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_foot_v23fr12_h1011_visual">
+          <pose>0.0002822000000000102 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <link name="link_foot_v24fr12_h1011">
+        <pose>-0.0985 0.3079 -0.01603 0.0 0.0 0.0</pose>
+        <inertial>
+          <pose>-0.00028215797477502627 -3.995913721516367e-08 -0.059033887903779524 0.0 0.0 0.0</pose>
+          <mass>0.0474422550728817</mass>
+          <inertia>
+            <ixx>3.181301419353018e-05</ixx>
+            <ixy>-2.2700767944325564e-12</ixy>
+            <ixz>-1.5726357006359807e-12</ixz>
+            <iyy>2.980723673584514e-05</iyy>
+            <iyz>-9.61983665720713e-13</iyz>
+            <izz>6.253466452350729e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name="link_foot_v24fr12_h1011_collision">
+          <pose>-0.0002822000000000102 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="link_foot_v24fr12_h1011_visual">
+          <pose>-0.0002822000000000102 0.0 -0.044 0.0 0.0 0.0</pose>
+          <geometry>
+            <mesh>
+              <uri>meshes/foot.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <ambient>1.0 0.25 0 1</ambient>
+            <diffuse>1.0 0.25 0 1</diffuse>
+            <specular>1.0 0.25 0 1</specular>
+            <emissive>1.0 0.25 0 1</emissive>
+          </material>
+        </visual>
+      </link>
+      <joint name="Joint1" type="continuous">
+        <parent>base_link</parent>
+        <child>head</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>-0.0 0.0 1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint2" type="continuous">
+        <parent>base_link</parent>
+        <child>link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>-0.0 -0.0 1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint3" type="continuous">
+        <parent>link_spine_v21XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint4" type="continuous">
+        <parent>link_spine_v22XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint5" type="continuous">
+        <parent>link_spine_v23XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint6" type="continuous">
+        <parent>link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1</parent>
+        <child>link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>-0.0 -0.0 1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint7" type="continuous">
+        <parent>link_tail_v21XM430_W210_R_v1_v31X-430_IDLE1</parent>
+        <child>link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint8" type="continuous">
+        <parent>link_tail_v22XM430_W210_R_v1_v31X-430_IDLE1</parent>
+        <child>XM430_W210_R_v1_v31X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint11" type="continuous">
+        <parent>base_link</parent>
+        <child>link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>-0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint31" type="continuous">
+        <parent>link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1</parent>
+        <child>link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>-0.0 0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint21" type="continuous">
+        <parent>base_link</parent>
+        <child>link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint41" type="continuous">
+        <parent>link_girdle_salamander_2_v31link_girdle_v71girdle_v31girdle1</parent>
+        <child>link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -0.0 -1.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint12" type="continuous">
+        <parent>link_left_leg_v21XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_foot_v21fr12_h1011</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -1.0 -0.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint22" type="continuous">
+        <parent>link_right_leg_v21XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_foot_v22fr12_h1011</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -1.0 0.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint32" type="continuous">
+        <parent>link_left_leg_v22XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_foot_v23fr12_h1011</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -1.0 -0.0</xyz>
+        </axis>
+      </joint>
+      <joint name="Joint42" type="continuous">
+        <parent>link_right_leg_v22XM430_W350_R_v1_v21X-430_IDLE1</parent>
+        <child>link_foot_v24fr12_h1011</child>
+        <pose>0 0 0 0 0 0</pose>
+        <axis>
+          <xyz>0.0 -1.0 0.0</xyz>
+        </axis>
+      </joint>
+    </model>
+  </world>
+</sdf>
